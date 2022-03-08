@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap");
+
+/* MAIN HTML SET UP */
+:root {
+  --darkGrey: #5d5c61;
+  --lightGrey: #379683;
+  --lightBlue: #7395ae;
+  --darkBlue: #557a95;
+  --brown: #b1a296;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
