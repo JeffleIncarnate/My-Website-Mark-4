@@ -15,7 +15,7 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100%;
-  background-color: #edf0f1;
+  background-color: #edf1fd;
   color: var(--white);
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
@@ -73,12 +73,10 @@ header h1 a {
 
 .topnav .img_Links {
   width: 20%;
-  background-color: red;
 }
 
 .topnav .social_Links {
   width: 20%;
-  background-color: red;
 }
 
 .topnav .nav_Links {
