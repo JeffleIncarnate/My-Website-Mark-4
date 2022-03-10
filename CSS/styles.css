@@ -15,7 +15,7 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100%;
-  background-color: var(--black);
+  background-color: #edf0f1;
   color: var(--white);
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
@@ -67,6 +67,27 @@ header h1 a {
   position: fixed;
   z-index: 1;
   display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.topnav .img_Links {
+  width: 20%;
+  background-color: red;
+}
+
+.topnav .social_Links {
+  width: 20%;
+  background-color: red;
+}
+
+.topnav .nav_Links {
+  width: 40%;
+}
+
+.topnav .nav_Links li {
+  list-style-type: none;
+  display: inline-block;
 }
 
 .topnav a {
@@ -80,8 +101,11 @@ header h1 a {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: var(--darkBlue);
+}
+
+.img_Links img {
+  max-width: 15rem;
 }
 
 /* ---- SIDE NAV ---- */
